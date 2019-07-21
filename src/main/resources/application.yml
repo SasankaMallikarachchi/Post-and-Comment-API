@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: postnComment
+  datasource:
+    url: jdbc:mysql://localhost:3306/postNcomm
+    username: root
+    password: yourpassword
+  jpa:
+    hibernate:
+      ddl-auto: update
+debug: true
